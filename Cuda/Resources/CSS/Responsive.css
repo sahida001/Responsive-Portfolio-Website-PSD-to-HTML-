@@ -1,0 +1,246 @@
+ 
+ @media only screen and (max-width: 1200px) {
+    header{
+        height: 60vh;
+    }
+    .hero-text-box{
+        top: 59%   
+    }
+    .row{
+      margin: 0 18px;
+  }
+
+} 
+
+@media only screen and (max-width: 1024px){
+   
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 52.5%;
+    }
+    .mobile-menu span{
+      display: block;
+    }
+}
+
+@media only screen and (max-width: 810px){
+    header {
+        height: 49vh;
+      }
+      .hero-text-box {
+        width: 85rem;
+      }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .col:nth-child(3){
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+  .client-photo img {
+   margin-left: 18rem;
+  }
+  .client-review {
+    margin-left: 6rem;
+  }
+  .contact-section form {
+    margin-top: 5rem;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+    header {
+        height: 49vh;
+      }
+      .hero-text-box {
+        width: 85rem;
+      }
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .col:nth-child(3){
+        margin-left: 0;
+    }
+    .client-photo {
+        width: 30rem;
+        float: left;
+      }
+      .client-review {
+        width: 30rem;
+        float: left;
+        text-align: center;
+        padding-left: 6rem;
+      }
+      .footer-section {
+        width: 100%;
+        line-height: 4rem;
+        padding-bottom: 4rem;
+      }
+      .contact-section form {
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0;
+      }
+     
+   }
+
+   @media only screen and (max-width: 600px) {
+    .hero-text-box {
+        width: 69rem;
+      }
+      .footer-section {
+        width: 100%;
+        line-height: 4rem;
+        padding-bottom: 4rem;
+      }
+}
+@media only screen and (max-width: 600px) {
+    .hero-text-box {
+        width: 45rem;
+    }
+    h1 {
+        font-size: 3rem;
+      }
+      .span_1_of_4 {
+        width: 100%;
+        
+    }
+    .team-section{
+        background-attachment: unset;
+    }
+    .testimonial-section{
+        background-attachment: unset;
+    }
+    .portfolio-section{
+        background-attachment: unset;
+    } 
+    .contact-section{
+        background-attachment: unset;
+    }
+}
+@media only screen and (max-width: 428px){
+  .portfolio-section h4{      
+  margin-top: 3rem;
+  margin-bottom: 3rem;    
+}
+  .client-photo {
+        width: 41rem;
+}
+.client-photo img {
+  margin-left: 5rem;
+}
+.client-review {
+  width: 27rem;
+}
+   .testimonial-section .col:nth-child(3),
+   .testimonial-section .col:nth-child(4){
+    margin-top: 4rem;      
+}
+.footer-section {
+width: 100%;
+}
+}
+
+@media only screen and (max-width: 412px) {
+      
+  .client-photo {
+    width: 25rem;
+    float: left;
+  }
+      .client-review {
+        width: 33rem;
+        padding-left: 0;
+        padding-right: 2rem;
+      }
+      .testimonial-section .col:nth-child(3),
+      .testimonial-section .col:nth-child(4){
+       margin-top: 4rem;      
+     }
+     .portfolio-section h4{  
+        
+        margin-top: 3rem;
+        margin-bottom: 3rem;    
+  }
+     .footer-section {
+        width: 100%;
+        line-height: 4rem;
+        padding-bottom: 4rem;
+      }
+}
+
+@media only screen and (max-width: 414px) {
+  .client-photo {
+    width: 29rem;
+  }
+      .client-review {
+        width: 33rem;
+        padding-left: 0;
+        padding-right: 2rem;
+      }
+      
+}
+@media only screen and (max-width: 375px) {
+  .span_1_of_4 {
+   width: 100%;   
+  }
+  .hero-text-box {
+      width: 33rem;
+    } 
+    .client-review {
+      width: 28rem;
+    } 
+    .client-photo img {
+      margin-left: 13rem;
+    }
+    .portfolio-section h4{  
+      margin-top: 3rem;
+      margin-bottom: 3rem;    
+}
+}
+
+@media only screen and (max-width: 360px) {
+    .hero-text-box {
+        width: 38rem;
+      }
+      .client-photo img {
+        margin-left: 12rem;
+      }
+      .client-review {
+        padding-right: 154px;
+        width: 43rem;
+      } 
+      .portfolio-section h4{  
+            font-size: 1.8rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-top: 3rem;
+            margin-bottom: 3rem;    
+      }
+}
+@media only screen and (max-width: 384px){
+  .client-photo {
+    width: 25rem;
+    float: left;
+  }
+  .client-review {
+    width: 47rem;
+    padding-right: 154px;
+  }
+}
+
+
+
+
+
+
+
+
+ 
+
+    

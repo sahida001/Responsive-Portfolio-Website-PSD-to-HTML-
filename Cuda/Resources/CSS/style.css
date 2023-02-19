@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 1.6rem;
+}
+
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+/*HEADER*/
+header{
+    background: linear-gradient(rgba(135, 80, 156, 0.9), rgb(135, 80, 156, 0.9)), url("../CSS/Image/header\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top ;
+    height: 85vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.hero-text-box{
+    width: 114rem;
+}
+/*BUTTON*/
+.btn:link,
+.btn:visited,
+.btn{
+  background-color: #333;
+  border-bottom: .3rem solid #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 6rem;
+  display: inline-block;
+  border-radius: .3rem;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top: 3.5rem;
+    float: left;
+}
+.main-nav{
+    float: right;
+    margin-top: 4rem;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 1rem;
+    border-radius: .3rem;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #643a7900;
+    padding: .6rem 1.6rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: 0.3s;
+    
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background-color: #643a79;
+    border-radius: .3rem;
+}
+.active{
+    background-color: #643a79;
+    
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.hero-text-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    font-size: 3.9rem;
+    color: #fff;
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background-color: #eb7d4b;
+    border-color: #c86a40;
+}
+
+/*MOBILE MENU*/
+.mobile-menu span{
+    color: #fff;
+    font-size: 4rem;
+    float: right;
+    margin-top: 4rem;
+    display: none;
+}
+.mobile-menu span:hover{
+    cursor: pointer;
+}
+/*SERVICES SECTION*/
+
+section{
+    padding: 6rem 0;
+}
+.services-section {
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(rgba(23, 194, 163, 0.9), rgba(23, 194, 163, 0.9)) ,url("../CSS/Image/services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top ;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;    
+}
+h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: #fff;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.little-description{
+    font-size: 1.8rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+}
+.services-section h2::after{
+    background-color: #14a58c;
+}
+.services-icon{
+    height: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+}
+
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+/*TEAM SECTION*/
+
+.team-section{
+    background: linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)),url(../CSS/Image/team\ bg.avif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+.team-section h2{
+    color: #27283d;
+}
+.team-section h2::after{
+    background: #c8d9e5;
+}
+.team-member{
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+}
+.team-section h3{
+    color: #3c4761;
+}
+.role{
+    color: #3cbee8;
+    margin-top: .6rem;
+    font-size: 1.6rem;
+    display: inline-block;
+}
+.team-section .box p{
+    color: #808ca0;
+}
+.social-link{
+    margin-top: 4.5rem;  
+}
+.social-link ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+.fas{
+    color: #fff;
+}
+.fab{
+    color: #fff;
+}
+.social-link ul li a:link i::before{
+    font-size: 2rem;
+    background: #b4c9d8;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.social-link ul li a:hover i::before{
+    background-color: #393939;
+    transform: rotate(360deg);
+}
+.skill-section{
+    text-align: center;
+    color: #3c4761;
+    background: linear-gradient(rgba(255, 2255, 255, 0.9),rgba(255, 2255, 255, 0.9)),url(../CSS/Image/skill\ bg.avif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill-section h2{
+    color: #3c4761;
+}
+.skill-section h2::after{
+    background-color: #dfe8ed;
+    
+}
+.skill-section p{
+    line-height: 2rem;
+}
+.skill-section .box{
+    margin-top: 4.5rem;
+}
+svg.radial-progress circle{
+    stroke-width: 5;
+}
+svg.radial-progress text{
+    fill: #3c4761;
+    font-size: 1.5rem;
+}
+svg.web-design circle{
+    stroke: #30bae7;
+}
+svg.html-css circle{
+    stroke: #d74680;
+}
+svg.graphic-design circle{
+    stroke: #15c7a8;
+}
+svg.ui-ux circle{
+    stroke: #eb7d4b;
+}
+.portfolio-section{
+    
+    text-align: center;
+    background:  linear-gradient(rgba(255, 221, 153, 0.9),rgba(255, 221, 153, 0.9)),url(../CSS/Image/testimonial.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portfolio-section h2{
+    color: #393939;
+}
+.portfolio-section h2::after{
+    background-color: #e5c37f;
+}
+.portfolio-filters{
+    margin: 4.5rem 0;
+}
+.portfolio-filters button{
+  background: #ebc985;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: .5rem;
+  color: #393939;
+  text-transform: uppercase;
+  margin: 0 .5rem;
+  transition: .5s;
+}
+
+#active{
+    background-color: rgb(238, 231, 231);
+}
+.portfolio-filters button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 .3rem .5rem rgba(57, 57, 57, 0.418);
+    background-color: rgb(238, 231, 231);
+}
+.portfolio-image{
+    width: 100%;
+    height: 30rem;
+}
+.portfolio-section .col:nth-child(3){
+    margin-left: 0;
+}
+.portfolio-section .btn-load-more{
+    background: #17c2a4;
+    border-color: #14a58c;
+}
+h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+}
+.testimonial-section{
+    background: #d74680;
+    text-align: center;   
+}
+.testimonial-section .client-review{
+    text-align: center;
+}
+.testimonial-section h2::after{
+    background: #b73c6d;
+}
+.testimonial-section p{
+    color: #fff;
+}
+.testimonial-section .col:nth-child(3){
+    margin-left: 0;
+}
+.testimonial-section .col:nth-child(1),
+.testimonial-section .col:nth-child(2){
+  margin-top: 4rem;
+}
+.testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+  margin-top: 8rem;
+}
+.client-review h3{
+    color: #fff;
+}
+.client-photo{
+  width: 15rem;
+  float: left;
+}
+.client-photo img{
+    height: 8rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+.client-review{
+    width: 30rem;
+    float: left;
+    text-align: center;
+}
+.client-review p{
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+.client-review .role{
+    color: #ffdd99;
+}
+.contact-section{
+    text-align: center;
+    background:  linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)),url(../CSS/Image/testimonial.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-section h2::after{
+    background: #273a71;
+}
+.contact-section .little-description{
+    color: #fff;
+}
+.contact-section form{
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea{
+    background: #273a71;
+    border: .1rem solid #273a71;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    color: #fff;
+    margin: .5rem 0;
+}
+.contact-section form ::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+.btn-submit{
+   border: 0;
+   border-bottom: .3rem solid #299ec5;
+   background: #30bae7;
+   cursor: pointer;
+}
+
+.footer-section{
+    background: #344b8e;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.383);
+    
+}
+
+.footer-section li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+.footer-section li a{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    text-decoration: none;
+    
+}
+.footer-section li a:hover{
+    background: #344b8e;
+}
